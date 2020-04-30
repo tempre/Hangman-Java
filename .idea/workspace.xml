@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f7b1f6d-f612-48b3-b291-a9040179ae63" name="Default Changelist" comment="" />
+    <list default="true" id="3f7b1f6d-f612-48b3-b291-a9040179ae63" name="Default Changelist" comment="Applying characters to list">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="HangmanGame" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -14,7 +20,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1b6QWl8QdV32vTYJ4PHcAvhrxqY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,7 +32,23 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main" />
+      <module name="HangmanGame" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -49,10 +75,46 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Applying characters to list" />
+    <option name="LAST_COMMIT_MESSAGE" value="Applying characters to list" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="643" y="133" key="CommitChangelistDialog2" timestamp="1587950909532">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="643" y="133" key="CommitChangelistDialog2/62.0.1858.1080/-1080.-602.1080.1880@62.0.1858.1080" timestamp="1587950909532" />
+    <state x="771" y="295" key="FileChooserDialogImpl" timestamp="1588018793821">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="771" y="295" key="FileChooserDialogImpl/62.0.1858.1080/-1080.-602.1080.1880@62.0.1858.1080" timestamp="1588018793821" />
     <state x="825" y="456" width="356" height="167" key="Github.CreateGistDialog" timestamp="1587950187265">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="825" y="456" width="356" height="167" key="Github.CreateGistDialog/62.0.1858.1080/-1080.-602.1080.1880@62.0.1858.1080" timestamp="1587950187265" />
+    <state width="1815" height="288" key="GridCell.Tab.0.bottom" timestamp="1588210629432">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1815" height="288" key="GridCell.Tab.0.bottom/62.0.1858.1080/-1080.-602.1080.1880@62.0.1858.1080" timestamp="1588210629432" />
+    <state width="1815" height="288" key="GridCell.Tab.0.center" timestamp="1588210629431">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1815" height="288" key="GridCell.Tab.0.center/62.0.1858.1080/-1080.-602.1080.1880@62.0.1858.1080" timestamp="1588210629431" />
+    <state width="1815" height="288" key="GridCell.Tab.0.left" timestamp="1588210629431">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1815" height="288" key="GridCell.Tab.0.left/62.0.1858.1080/-1080.-602.1080.1880@62.0.1858.1080" timestamp="1588210629431" />
+    <state width="1815" height="288" key="GridCell.Tab.0.right" timestamp="1588210629432">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1815" height="288" key="GridCell.Tab.0.right/62.0.1858.1080/-1080.-602.1080.1880@62.0.1858.1080" timestamp="1588210629432" />
+    <state x="687" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1588115481080">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="687" y="364" key="com.intellij.ide.util.TipDialog/62.0.1858.1080/-1080.-602.1080.1880@62.0.1858.1080" timestamp="1588115481080" />
+    <state x="-1080" y="303" key="new project wizard" timestamp="1588115497043">
+      <screen x="-1080" y="-602" width="1080" height="1880" />
+    </state>
+    <state x="-1080" y="303" key="new project wizard/62.0.1858.1080/-1080.-602.1080.1880@-1080.-602.1080.1880" timestamp="1588115497043" />
   </component>
 </project>
