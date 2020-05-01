@@ -25,7 +25,6 @@ public class main {
             for(int i = 0; i < arrayList.get(random).length(); i++) {
                 gameList.add(i, arrayList.get(random).charAt(i));
             }
-            System.out.println(gameList);
 
         } catch (FileNotFoundException e) {
             e.printStackTrace();
@@ -35,22 +34,23 @@ public class main {
     public static void gameLoop() {
         Scanner scan = new Scanner(System.in);
         System.out.println("Do you want to play hangman? (y/n)");
+        String userInputInital = scan.next().toLowerCase();
 
         while(true){
-            if(scan.next().toLowerCase().equals("y")) {
+            if(userInputInital.equals("y")) {
                 init("words");
                 int counter = 0;
-                int numberOfTries = gameList.size() * 2;
+                int numberOfTries = gameList.size() * 3;
                 guessList = new ArrayList<>();
                 for (int i = 0; i < gameList.size(); i++) {
                     guessList.add(i, '_');
                 }
-                while(counter <= numberOfTries) {
+                while(counter != gameList.size()*3) {
                     System.out.println(guessList + "\nOk now take your guesses to the characters! You have " + numberOfTries + " tries!");
                     char c = scan.next().charAt(0);
                     for(int i = 0; i < gameList.size(); i++) {
                         if(guessList.get(i).equals(c)){
-                            System.out.println("already guessed!");
+                            System.out.println("already guessed! " + guessList.get(i) + "!");
                         }
                         else if(gameList.get(i).equals(c)) {
                             guessList.set(i, gameList.get(i));
@@ -64,12 +64,8 @@ public class main {
                     numberOfTries--;
                 }
             }
-            if(scan.next().toLowerCase().equals("n")) {
+            if(userInputInital.equals("n")) {
                 System.exit(1);
-            }
-
-            else {
-                System.out.println("invalid character try again!");
             }
         }
     }
